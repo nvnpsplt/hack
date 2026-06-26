@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Experience vibrant campus life at Global Tech University — student clubs, sports, cultural events, hostel facilities, cafeteria, and more." />
+  <meta name="keywords" content="GTU campus life, student clubs, sports, hostel, cultural events, university life" />
+  <meta name="author" content="Global Tech University" />
+  <meta property="og:title" content="Campus Life — Global Tech University" />
+  <meta property="og:description" content="Discover the enriching campus experience at GTU with diverse clubs, world-class sports facilities, and a vibrant community." />
+  <meta property="og:type" content="website" />
+  <title>Campus Life — Global Tech University</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="Global Tech University Home">
+        <span class="logo-icon" aria-hidden="true">GTU</span>
+        <span class="logo-text">Global Tech <br /><small>University</small></span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-hamburger" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <ul class="nav-menu" role="menubar">
+        <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+        <li role="none"><a href="about.html" role="menuitem">About</a></li>
+        <li role="none"><a href="academics.html" role="menuitem">Academics</a></li>
+        <li role="none"><a href="admissions.html" role="menuitem">Admissions</a></li>
+        <li role="none"><a href="campus-life.html" role="menuitem" class="active">Campus Life</a></li>
+        <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+      </ul>
+      <a href="admissions.html" class="btn btn-accent nav-cta">Apply Now</a>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80');" aria-label="Campus Life hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="page-hero-badge">Life at GTU</p>
+      <h1>Where Learning Meets <em>Living</em></h1>
+      <p class="page-hero-sub">A vibrant, inclusive campus community that nurtures talent, celebrates diversity, and builds lifelong connections.</p>
+    </div>
+  </section>
+
+  <!-- ===== CAMPUS OVERVIEW ===== -->
+  <section class="section" aria-labelledby="overview-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-badge">Campus Overview</span>
+          <h2 id="overview-heading">A 500-Acre Integrated Campus</h2>
+          <p>Global Tech University's sprawling 500-acre campus is a self-contained ecosystem of learning, innovation, and recreation. With lush green quads, modern architecture, and state-of-the-art infrastructure, GTU offers an unparalleled environment for holistic development.</p>
+          <p>From cutting-edge research labs to serene meditation gardens, from Olympic-standard sports facilities to world-class performing arts centres — every inch of GTU is designed to inspire. Our campus is not just a place to study; it's a place to grow, explore, and thrive.</p>
+          <ul class="feature-list" aria-label="Campus highlights">
+            <li>150+ student clubs and organisations</li>
+            <li>25,000+ student community from 40+ countries</li>
+            <li>24/7 library with 5 lakh+ volumes</li>
+            <li>10 hostels with 8,000+ capacity</li>
+            <li>WiFi-enabled across entire campus</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&w=800&q=80" alt="Aerial view of GTU campus showing green lawns and modern buildings" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAMPUS STATS ===== -->
+  <section class="stats-section" aria-label="Campus statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">150+</span>
+          <span class="stat-label">Student Clubs</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">40+</span>
+          <span class="stat-label">Sports Facilities</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">10</span>
+          <span class="stat-label">Hostels</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">500</span>
+          <span class="stat-label">Acres Campus</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STUDENT CLUBS ===== -->
+  <section class="section bg-light" aria-labelledby="clubs-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Community</span>
+        <h2 id="clubs-heading">Student Clubs &amp; Organisations</h2>
+        <p>Over 150 student-run clubs covering technology, arts, culture, sports, social service, and entrepreneurship. Find your tribe and pursue your passion.</p>
+      </div>
+      <div class="programs-grid">
+        <article class="program-card" aria-label="Technology clubs">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">💻</div>
+            <span class="program-badge">Technology</span>
+          </div>
+          <h3>Tech &amp; Coding Clubs</h3>
+          <p>GTU Coders, Robotics Club, AI/ML Society, Cybersecurity Club, App Dev Guild, Open Source Initiative. Hackathons, coding marathons, and tech fests every semester.</p>
+          <ul class="program-details">
+            <li>Weekly meetups &amp; workshops</li>
+            <li>Inter-college competitions</li>
+            <li>Industry mentor sessions</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Explore Clubs</a>
+        </article>
+
+        <article class="program-card" aria-label="Arts and culture clubs">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">🎭</div>
+            <span class="program-badge">Arts &amp; Culture</span>
+          </div>
+          <h3>Arts &amp; Cultural Clubs</h3>
+          <p>Drama Society, Fine Arts Club, Photography Circle, Music Band, Dance Academy, Literary Society. Express your creative side on multiple platforms.</p>
+          <ul class="program-details">
+            <li>Annual cultural festival "Tarang"</li>
+            <li>Inter-university competitions</li>
+            <li>Dedicated performance studios</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Join a Club</a>
+        </article>
+
+        <article class="program-card" aria-label="Sports clubs">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">⚽</div>
+            <span class="program-badge">Sports</span>
+          </div>
+          <h3>Sports &amp; Fitness Clubs</h3>
+          <p>Cricket, Football, Basketball, Badminton, Table Tennis, Chess, Swimming, Athletics, Yoga, and Martial Arts clubs. Something for every athlete and fitness enthusiast.</p>
+          <ul class="program-details">
+            <li>Inter-departmental tournaments</li>
+            <li>Professional coaching staff</li>
+            <li>Annual Sports Meet "Olympia"</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Play Sports</a>
+        </article>
+
+        <article class="program-card" aria-label="Entrepreneurship clubs">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">🚀</div>
+            <span class="program-badge">Entrepreneurship</span>
+          </div>
+          <h3>E-Cell &amp; Startup Hub</h3>
+          <p>Entrepreneurship Cell, E-Summit, startup incubation support, business plan competitions, and mentorship from successful founders and investors.</p>
+          <ul class="program-details">
+            <li>Access to GTU Incubator</li>
+            <li>Seed funding opportunities</li>
+            <li>Investor pitch sessions</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Start a Venture</a>
+        </article>
+
+        <article class="program-card" aria-label="Social service clubs">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">🤝</div>
+            <span class="program-badge">Social Service</span>
+          </div>
+          <h3>NSS &amp; Social Clubs</h3>
+          <p>National Service Scheme, Green Campus Initiative, Blood Donation Club, Rural Outreach Program, Animal Welfare Society. Make a difference in the community.</p>
+          <ul class="program-details">
+            <li>Village adoption programs</li>
+            <li>Tree plantation drives</li>
+            <li>Awareness campaigns</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Serve Society</a>
+        </article>
+
+        <article class="program-card" aria-label="Debate and MUN clubs">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">🌐</div>
+            <span class="program-badge">Leadership</span>
+          </div>
+          <h3>Debate &amp; MUN Society</h3>
+          <p>Toastmasters Club, Model United Nations, Debate Championship, Public Speaking Society. Sharpen your communication, critical thinking, and leadership skills.</p>
+          <ul class="program-details">
+            <li>National MUN competitions</li>
+            <li>Guest speaker series</li>
+            <li>Leadership workshops</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Lead &amp; Speak</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SPORTS ===== -->
+  <section class="section" aria-labelledby="sports-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Athletics</span>
+        <h2 id="sports-heading">World-Class Sports Facilities</h2>
+        <p>GTU believes in the power of sports for physical fitness, mental resilience, and teamwork. Our Olympic-standard facilities host national and international events.</p>
+      </div>
+      <div class="campus-highlights-grid">
+        <div class="highlight-main">
+          <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80" alt="GTU multi-purpose indoor sports arena with modern flooring" loading="lazy" />
+          <div class="highlight-overlay">
+            <h3>Multi-Purpose Indoor Arena</h3>
+            <p>5,000-seat capacity for basketball, volleyball, badminton, and more</p>
+          </div>
+        </div>
+        <div class="highlight-side">
+          <div class="highlight-small">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80" alt="Olympic-size swimming pool at GTU campus" loading="lazy" />
+            <div class="highlight-overlay">
+              <h3>Olympic Swimming Pool</h3>
+              <p>50-metre heated pool with professional timing systems</p>
+            </div>
+          </div>
+          <div class="highlight-small">
+            <img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=400&q=80" alt="GTU cricket ground with lush green outfield" loading="lazy" />
+            <div class="highlight-overlay">
+              <h3>Cricket &amp; Football Grounds</h3>
+              <p>Full-size turf grounds with floodlights for evening matches</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-grid" style="margin-top: 3rem;">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🏸</div>
+          <h3>Badminton Courts</h3>
+          <p>10 synthetic badminton courts with professional lighting, used for inter-university tournaments.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🏋️</div>
+          <h3>Fitness Centre</h3>
+          <p>State-of-the-art gym with cardio machines, free weights, personal trainers, and group fitness classes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🎾</div>
+          <h3>Tennis Courts</h3>
+          <p>6 floodlit tennis courts, including 2 clay courts. Home to the GTU Open Tennis Championship.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🏃</div>
+          <h3>Athletics Track</h3>
+          <p>400-metre IAAF-certified synthetic track with field event zones for shot put, discus, and long jump.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🧘</div>
+          <h3>Yoga &amp; Meditation</h3>
+          <p>Dedicated wellness centre with yoga studios, meditation halls, and a peaceful garden for mindfulness.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🏊</div>
+          <h3>Water Sports</h3>
+          <p>On-campus lake facility for rowing, kayaking, and canoeing. Water sports coaching available year-round.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CULTURAL EVENTS ===== -->
+  <section class="section bg-light" aria-labelledby="events-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Events &amp; Festivals</span>
+        <h2 id="events-heading">Cultural Events &amp; Festivals</h2>
+        <p>GTU's calendar is packed with exciting events that celebrate talent, culture, and creativity. These are moments you will cherish for a lifetime.</p>
+      </div>
+      <div class="news-grid">
+        <article class="news-card">
+          <div class="news-image">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" alt="Tarang cultural festival performance on the main stage" loading="lazy" />
+          </div>
+          <div class="news-content">
+            <span class="news-category">Annual Festival</span>
+            <h3>Tarang — Annual Cultural Festival</h3>
+            <p>GTU's marquee 3-day cultural extravaganza featuring music concerts, dance competitions, theatre, fashion shows, and celebrity performances. Attended by 10,000+ visitors every year.</p>
+            <div class="news-meta">
+              <span>📅 February 2026</span>
+              <a href="#" class="btn btn-outline" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Learn More</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-image">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80" alt="TechFest science and technology exhibition" loading="lazy" />
+          </div>
+          <div class="news-content">
+            <span class="news-category">Tech Festival</span>
+            <h3>TechFest — National Tech Symposium</h3>
+            <p>Annual technology festival with hackathons, robotics competitions, paper presentations, product exhibitions, and keynote addresses by industry leaders and innovators.</p>
+            <div class="news-meta">
+              <span>📅 March 2026</span>
+              <a href="#" class="btn btn-outline" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Learn More</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-image">
+            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=600&q=80" alt="Olympia annual sports meet opening ceremony" loading="lazy" />
+          </div>
+          <div class="news-content">
+            <span class="news-category">Sports Meet</span>
+            <h3>Olympia — Annual Sports Meet</h3>
+            <p>GTU's grand inter-departmental and inter-college sports championship spanning 5 days, covering 25+ sports disciplines. An Olympic-style spectacle celebrating athletic excellence.</p>
+            <div class="news-meta">
+              <span>📅 January 2026</span>
+              <a href="#" class="btn btn-outline" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Learn More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="programs-grid" style="margin-top: 3rem;">
+        <article class="program-card">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">🎓</div>
+            <span class="program-badge">Academic</span>
+          </div>
+          <h3>Convocation Ceremony</h3>
+          <p>The grand annual convocation ceremony celebrating the achievements of our graduating class. A formal, prestigious event with dignitaries and proud families.</p>
+          <p class="program-duration">📅 May 2026</p>
+        </article>
+        <article class="program-card">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">🌍</div>
+            <span class="program-badge">International</span>
+          </div>
+          <h3>International Culture Week</h3>
+          <p>Celebrating the diversity of 40+ nationalities on campus through food festivals, cultural exhibitions, folk dance performances, and global cuisine.</p>
+          <p class="program-duration">📅 November 2025</p>
+        </article>
+        <article class="program-card">
+          <div class="program-card-header">
+            <div class="program-icon" aria-hidden="true">🎨</div>
+            <span class="program-badge">Creative Arts</span>
+          </div>
+          <h3>Artisan — Fine Arts Exhibition</h3>
+          <p>Annual exhibition showcasing paintings, sculptures, digital art, photography, and installations by GTU students. Open to the public and judged by renowned artists.</p>
+          <p class="program-duration">📅 December 2025</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOSTEL FACILITIES ===== -->
+  <section class="section" aria-labelledby="hostel-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Accommodation</span>
+        <h2 id="hostel-heading">Hostel &amp; Accommodation</h2>
+        <p>Our 10 residential hostels provide a safe, comfortable, and vibrant living environment for students from across the country and the world.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80" alt="GTU hostel room with modern furniture and large window" loading="lazy" />
+        </div>
+        <div class="about-text">
+          <span class="section-badge">Living on Campus</span>
+          <h3>Your Home Away From Home</h3>
+          <p>GTU's hostels are more than just accommodation — they are vibrant communities where students from diverse backgrounds come together, forge lifelong friendships, and grow as individuals.</p>
+          <p>We offer separate hostel blocks for men and women, with dedicated facilities for international students. All hostels are fully equipped and connected to the university network.</p>
+          <ul class="feature-list">
+            <li>Single, double, and triple sharing options</li>
+            <li>24/7 high-speed Wi-Fi connectivity</li>
+            <li>Attached bathrooms in premium blocks</li>
+            <li>Common rooms with TV, TT, and carrom</li>
+            <li>Laundry facilities on each floor</li>
+            <li>Round-the-clock security and CCTV</li>
+            <li>Medical room with resident doctor</li>
+            <li>Mess with 24-hour hot water supply</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="features-grid" style="margin-top: 3rem;">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🏠</div>
+          <h3>Men's Hostels (7)</h3>
+          <p>Seven dedicated hostel blocks for male students with capacity for 5,500 residents across various room types.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🏡</div>
+          <h3>Women's Hostels (3)</h3>
+          <p>Three secure, well-appointed hostel blocks for female students with additional security measures and a dedicated warden.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🌐</div>
+          <h3>International Students Wing</h3>
+          <p>Dedicated wing for international students with cultural spaces, multi-cuisine kitchen, and language support services.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🍽️</div>
+          <h3>Dining Facilities</h3>
+          <p>Each hostel block has an adjacent mess serving freshly cooked, nutritious meals four times a day. Special menus for dietary requirements.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🔒</div>
+          <h3>Safety &amp; Security</h3>
+          <p>Biometric access control, 200+ CCTV cameras, security personnel, and 24/7 emergency helpline ensure a safe campus.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🌿</div>
+          <h3>Green Surroundings</h3>
+          <p>Hostels surrounded by trees, gardens, and open-air seating areas for a calm, peaceful environment conducive to study.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAFETERIA ===== -->
+  <section class="section bg-light" aria-labelledby="cafeteria-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-badge">Food &amp; Dining</span>
+          <h2 id="cafeteria-heading">Cafeteria &amp; Dining Options</h2>
+          <p>GTU's campus is a foodie's paradise with 12 dining outlets, including the main Central Cafeteria, department cafes, food courts, and specialty restaurants serving cuisine from across India and the world.</p>
+          <p>Our dining philosophy is simple: fresh, nutritious, diverse, and affordable. The Central Cafeteria serves 3,000+ students daily with a menu that changes weekly to ensure variety.</p>
+          <ul class="feature-list">
+            <li>12 food outlets across campus</li>
+            <li>Veg, non-veg, and vegan options</li>
+            <li>South Indian, North Indian, Chinese, Continental</li>
+            <li>Allergen-free and Jain food sections</li>
+            <li>Cashless payment via GTU Smart Card</li>
+            <li>Subsidised meal rates for students</li>
+          </ul>
+          <a href="#" class="btn btn-primary">View Menu</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1567521464027-f127ff144326?auto=format&fit=crop&w=800&q=80" alt="GTU central cafeteria with colourful food spread and busy dining area" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LIBRARY ===== -->
+  <section class="section" aria-labelledby="library-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=800&q=80" alt="GTU main library interior with towering bookshelves and study zones" loading="lazy" />
+        </div>
+        <div class="about-text">
+          <span class="section-badge">Knowledge Hub</span>
+          <h2 id="library-heading">Dr. A.P.J. Abdul Kalam Central Library</h2>
+          <p>Named in honour of the Missile Man of India, GTU's Central Library is one of the finest academic libraries in the country. Spanning 5 floors and 80,000 sq. ft., it is the intellectual heart of the campus.</p>
+          <p>With over 5 lakh physical volumes, 50,000+ e-books, access to 200+ international journals, and 24/7 digital access, our library supports research at the highest levels.</p>
+          <ul class="feature-list">
+            <li>5 lakh+ books, journals, and theses</li>
+            <li>500-seat silent study area</li>
+            <li>Group discussion rooms (50+)</li>
+            <li>Digital resource centre with 200 terminals</li>
+            <li>24/7 access to e-resources via VPN</li>
+            <li>RFID-enabled book tracking system</li>
+            <li>3D printing and makerspace lab</li>
+            <li>Rare books and archives section</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Access Library Portal</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INNOVATION LABS ===== -->
+  <section class="section bg-light" aria-labelledby="labs-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Innovation</span>
+        <h2 id="labs-heading">Innovation Labs &amp; Makerspaces</h2>
+        <p>Hands-on learning meets cutting-edge technology at GTU's Innovation Labs. These spaces are open to all students for experimentation, prototyping, and building the future.</p>
+      </div>
+      <div class="research-grid">
+        <article class="research-card">
+          <div class="research-image">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="Student working at GTU Fabrication Lab with 3D printers and laser cutters" loading="lazy" />
+          </div>
+          <div class="research-content">
+            <span class="research-tag">Fabrication</span>
+            <h3>Fab Lab &amp; Makerspace</h3>
+            <p>Equipped with 3D printers, laser cutters, CNC machines, soldering stations, and a full electronics workbench. Open 24/7 to all registered students.</p>
+          </div>
+        </article>
+
+        <article class="research-card">
+          <div class="research-image">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=600&q=80" alt="AI and machine learning lab with high-performance computing clusters" loading="lazy" />
+          </div>
+          <div class="research-content">
+            <span class="research-tag">AI &amp; ML</span>
+            <h3>AI &amp; Data Science Studio</h3>
+            <p>High-performance GPU clusters, collaborative whiteboard spaces, and curated datasets for machine learning, computer vision, and NLP projects.</p>
+          </div>
+        </article>
+
+        <article class="research-card">
+          <div class="research-image">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" alt="Cybersecurity and ethical hacking lab with advanced network equipment" loading="lazy" />
+          </div>
+          <div class="research-content">
+            <span class="research-tag">Cybersecurity</span>
+            <h3>Cyber Defence Lab</h3>
+            <p>Dedicated environment for ethical hacking, network security analysis, penetration testing practice, and cybersecurity research — a first in the region.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAMPUS GALLERY ===== -->
+  <section class="section" aria-labelledby="gallery-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Gallery</span>
+        <h2 id="gallery-heading">Campus Gallery</h2>
+        <p>A glimpse into the beautiful, vibrant, and inspiring world of Global Tech University.</p>
+      </div>
+      <div class="gallery-grid" role="list" aria-label="Campus photo gallery">
+        <figure class="gallery-item gallery-large" role="listitem">
+          <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80" alt="GTU main administration building at golden hour" loading="lazy" />
+          <figcaption>Main Administration Building</figcaption>
+        </figure>
+        <figure class="gallery-item" role="listitem">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=400&q=80" alt="Students walking through GTU campus corridors" loading="lazy" />
+          <figcaption>Campus Life</figcaption>
+        </figure>
+        <figure class="gallery-item" role="listitem">
+          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=400&q=80" alt="Professor delivering a lecture to engaged students" loading="lazy" />
+          <figcaption>In the Classroom</figcaption>
+        </figure>
+        <figure class="gallery-item" role="listitem">
+          <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=400&q=80" alt="Students working together in a modern research laboratory" loading="lazy" />
+          <figcaption>Research Lab</figcaption>
+        </figure>
+        <figure class="gallery-item" role="listitem">
+          <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=400&q=80" alt="Indoor sports arena during inter-college basketball competition" loading="lazy" />
+          <figcaption>Sports Arena</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-large" role="listitem">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80" alt="Annual cultural festival Tarang with colourful stage performance" loading="lazy" />
+          <figcaption>Annual Cultural Festival — Tarang</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STUDENT ACTIVITIES ===== -->
+  <section class="section bg-light" aria-labelledby="activities-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Student Life</span>
+        <h2 id="activities-heading">Student Activities &amp; Welfare</h2>
+        <p>GTU's Student Affairs Office runs a comprehensive programme to support student well-being, leadership development, and social engagement.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🏥</div>
+          <h3>Health &amp; Wellness Centre</h3>
+          <p>On-campus medical centre with resident doctors, nurses, and specialists. Mental health counselling, physiotherapy, and dental care available free of cost.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">💼</div>
+          <h3>Career Development Cell</h3>
+          <p>Resume building, interview coaching, aptitude training, and placement support services. Dedicated career counsellors for personalised guidance.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🌱</div>
+          <h3>Student Mentorship</h3>
+          <p>Every first-year student is assigned a faculty mentor and a senior student buddy to ease the transition into university life and provide academic support.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">♿</div>
+          <h3>Differently-Abled Support</h3>
+          <p>Accessible campus infrastructure, screen reader-enabled learning portals, sign language interpreters, and a dedicated disability support coordinator.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">📚</div>
+          <h3>Academic Support Centre</h3>
+          <p>Peer tutoring, writing centre, supplemental instruction, and academic workshops to help students excel in their coursework and competitive exams.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🤸</div>
+          <h3>Recreation &amp; Leisure</h3>
+          <p>Gaming zones, open-air amphitheatre, rooftop gardens, movie nights, and weekend trips to nearby destinations keep life exciting beyond the classroom.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ALUMNI STORIES ===== -->
+  <section class="section" aria-labelledby="alumni-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Our Alumni</span>
+        <h2 id="alumni-heading">Alumni Success Stories</h2>
+        <p>GTU graduates are making a difference across industries and continents. Here are just a few of the inspiring journeys of our alumni.</p>
+      </div>
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Portrait of Arjun Mehta, GTU alumni and tech entrepreneur" loading="lazy" />
+            <div>
+              <strong>Arjun Mehta</strong>
+              <span>Co-Founder &amp; CEO, NovaTech AI</span>
+            </div>
+          </div>
+          <blockquote>
+            "GTU gave me more than a degree — it gave me the mindset to build. The Innovation Lab, the E-Cell, and the incredible faculty pushed me to think beyond boundaries. NovaTech was born in GTU's incubator and today employs 500 people."
+          </blockquote>
+          <div class="testimonial-footer">
+            <span>B.Tech CSE, 2015 · Forbes 30 Under 30</span>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Portrait of Priya Nair, GTU alumni and NASA researcher" loading="lazy" />
+            <div>
+              <strong>Dr. Priya Nair</strong>
+              <span>Research Scientist, NASA Jet Propulsion Lab</span>
+            </div>
+          </div>
+          <blockquote>
+            "The research culture at GTU is extraordinary. My PhD at GTU opened doors I never imagined. The exposure to interdisciplinary research, world-class labs, and inspiring mentors shaped my career in space science."
+          </blockquote>
+          <div class="testimonial-footer">
+            <span>PhD Aerospace Engineering, 2018</span>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Portrait of Sneha Kapoor, GTU alumni and social entrepreneur" loading="lazy" />
+            <div>
+              <strong>Sneha Kapoor</strong>
+              <span>Founder, EduReach Foundation</span>
+            </div>
+          </div>
+          <blockquote>
+            "The NSS programs and social clubs at GTU lit my passion for social impact. After campus, I founded EduReach which has provided quality education to 1 lakh+ underprivileged children. GTU taught me that technology is a tool for humanity."
+          </blockquote>
+          <div class="testimonial-footer">
+            <span>MBA, 2016 · UN SDG Champion 2023</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="cta-inline" style="margin-top: 3rem; text-align: center;">
+        <a href="#" class="btn btn-primary">Connect with Alumni Network</a>
+        <a href="contact.html" class="btn btn-outline" style="margin-left: 1rem;">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta-section" aria-label="Call to action">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Experience Campus Life for Yourself</h2>
+        <p>Schedule a campus tour, attend an open day, or apply for the next academic session. Your GTU journey begins with a single step.</p>
+        <div class="cta-buttons">
+          <a href="admissions.html" class="btn btn-accent">Apply Now</a>
+          <a href="contact.html" class="btn btn-white-outline">Schedule a Campus Tour</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo" aria-label="Global Tech University Home">
+            <span class="logo-icon">GTU</span>
+            <span>Global Tech University</span>
+          </a>
+          <p>Empowering minds, advancing knowledge, and shaping the innovators of tomorrow since 1950.</p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="#" aria-label="GTU on Facebook" rel="noopener noreferrer">f</a>
+            <a href="#" aria-label="GTU on Twitter/X" rel="noopener noreferrer">X</a>
+            <a href="#" aria-label="GTU on LinkedIn" rel="noopener noreferrer">in</a>
+            <a href="#" aria-label="GTU on Instagram" rel="noopener noreferrer">ig</a>
+            <a href="#" aria-label="GTU on YouTube" rel="noopener noreferrer">▶</a>
+          </div>
+        </div>
+        <nav class="footer-links" aria-label="Quick links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About GTU</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="campus-life.html">Campus Life</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-links" aria-label="Academics links">
+          <h3>Academics</h3>
+          <ul>
+            <li><a href="academics.html#undergraduate">Undergraduate</a></li>
+            <li><a href="academics.html#postgraduate">Postgraduate</a></li>
+            <li><a href="academics.html#doctoral">Doctoral Programs</a></li>
+            <li><a href="#">Research Centres</a></li>
+            <li><a href="#">Faculty Directory</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact" aria-label="Contact information">
+          <h3>Contact Us</h3>
+          <address>
+            <p>📍 GTU Campus, Tech Avenue,<br />Innovation District,<br />Bengaluru — 560 001, Karnataka, India</p>
+            <p>📞 <a href="tel:+918012345678">+91 80 1234 5678</a></p>
+            <p>✉️ <a href="mailto:info@gtu.edu.in">info@gtu.edu.in</a></p>
+            <p>🕐 Mon–Fri: 9:00 AM – 6:00 PM</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Global Tech University. All rights reserved.</p>
+        <nav aria-label="Legal links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Sitemap</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
