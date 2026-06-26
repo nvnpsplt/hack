@@ -17,33 +17,42 @@
 </head>
 <body>
 
-  <!-- ===== NAVIGATION ===== -->
-  <header class="navbar" role="banner">
-    <nav class="nav-container" aria-label="Main navigation">
+  <!-- ====================================================
+       HEADER / NAVIGATION
+       ==================================================== -->
+  <header class="header">
+    <nav class="nav">
       <a href="index.html" class="nav-logo" aria-label="Global Tech University Home">
-        <span class="logo-icon" aria-hidden="true">GTU</span>
-        <span class="logo-text">Global Tech <br /><small>University</small></span>
+        <div class="logo-crest" aria-hidden="true">GTU</div>
+        <div class="logo-text-wrap">
+          <span class="logo-name">Global Tech University</span>
+          <span class="logo-sub">Excellence in Education</span>
+        </div>
       </a>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
-      <label for="nav-toggle" class="nav-hamburger" aria-label="Toggle navigation menu">
+
+      <!-- CSS-only hamburger toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="nav-hamburger" aria-label="Open navigation menu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </label>
-      <ul class="nav-menu" role="menubar">
-        <li role="none"><a href="index.html" role="menuitem">Home</a></li>
-        <li role="none"><a href="about.html" role="menuitem">About</a></li>
-        <li role="none"><a href="academics.html" role="menuitem">Academics</a></li>
-        <li role="none"><a href="admissions.html" role="menuitem">Admissions</a></li>
-        <li role="none"><a href="campus-life.html" role="menuitem" class="active">Campus Life</a></li>
-        <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+
+      <ul class="nav-menu" role="list">
+        <li><a href="index.html"       class="nav-link">Home</a></li>
+        <li><a href="about.html"       class="nav-link">About</a></li>
+        <li><a href="academics.html"   class="nav-link">Academics</a></li>
+        <li><a href="admissions.html"  class="nav-link">Admissions</a></li>
+        <li><a href="campus-life.html" class="nav-link active" aria-current="page">Campus Life</a></li>
+        <li><a href="contact.html"     class="nav-link">Contact</a></li>
       </ul>
+
       <a href="admissions.html" class="btn btn-accent nav-cta">Apply Now</a>
     </nav>
   </header>
 
   <!-- ===== PAGE HERO ===== -->
-  <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80');" aria-label="Campus Life hero">
+  <section class="page-hero" style="background-image: url('images/hero-campus-life.jpg');" aria-label="Campus Life hero">
     <div class="page-hero-overlay"></div>
     <div class="page-hero-content">
       <p class="page-hero-badge">Life at GTU</p>
@@ -70,7 +79,7 @@
           </ul>
         </div>
         <div class="about-image">
-          <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&w=800&q=80" alt="Aerial view of GTU campus showing green lawns and modern buildings" loading="lazy" />
+          <img src="images/campus-aerial.jpg" alt="Aerial view of GTU campus showing green lawns and modern buildings" loading="lazy" />
         </div>
       </div>
     </div>
@@ -212,7 +221,7 @@
       </div>
       <div class="campus-highlights-grid">
         <div class="highlight-main">
-          <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80" alt="GTU multi-purpose indoor sports arena with modern flooring" loading="lazy" />
+          <img src="images/sports-arena.jpg" alt="GTU multi-purpose indoor sports arena with modern flooring" loading="lazy" />
           <div class="highlight-overlay">
             <h3>Multi-Purpose Indoor Arena</h3>
             <p>5,000-seat capacity for basketball, volleyball, badminton, and more</p>
@@ -220,14 +229,14 @@
         </div>
         <div class="highlight-side">
           <div class="highlight-small">
-            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80" alt="Olympic-size swimming pool at GTU campus" loading="lazy" />
+            <img src="images/sports-pool.jpg" alt="Olympic-size swimming pool at GTU campus" loading="lazy" />
             <div class="highlight-overlay">
               <h3>Olympic Swimming Pool</h3>
               <p>50-metre heated pool with professional timing systems</p>
             </div>
           </div>
           <div class="highlight-small">
-            <img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=400&q=80" alt="GTU cricket ground with lush green outfield" loading="lazy" />
+            <img src="images/sports-cricket.jpg" alt="GTU cricket ground with lush green outfield" loading="lazy" />
             <div class="highlight-overlay">
               <h3>Cricket &amp; Football Grounds</h3>
               <p>Full-size turf grounds with floodlights for evening matches</p>
@@ -282,7 +291,7 @@
       <div class="news-grid">
         <article class="news-card">
           <div class="news-image">
-            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" alt="Tarang cultural festival performance on the main stage" loading="lazy" />
+            <img src="images/event-tarang.jpg" alt="Tarang cultural festival performance on the main stage" loading="lazy" />
           </div>
           <div class="news-content">
             <span class="news-category">Annual Festival</span>
@@ -297,7 +306,7 @@
 
         <article class="news-card">
           <div class="news-image">
-            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80" alt="TechFest science and technology exhibition" loading="lazy" />
+            <img src="images/event-techfest.jpg" alt="TechFest science and technology exhibition" loading="lazy" />
           </div>
           <div class="news-content">
             <span class="news-category">Tech Festival</span>
@@ -312,7 +321,7 @@
 
         <article class="news-card">
           <div class="news-image">
-            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=600&q=80" alt="Olympia annual sports meet opening ceremony" loading="lazy" />
+            <img src="images/event-olympia.jpg" alt="Olympia annual sports meet opening ceremony" loading="lazy" />
           </div>
           <div class="news-content">
             <span class="news-category">Sports Meet</span>
@@ -368,7 +377,7 @@
       </div>
       <div class="about-grid">
         <div class="about-image">
-          <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80" alt="GTU hostel room with modern furniture and large window" loading="lazy" />
+          <img src="images/hostel-room.jpg" alt="GTU hostel room with modern furniture and large window" loading="lazy" />
         </div>
         <div class="about-text">
           <span class="section-badge">Living on Campus</span>
@@ -443,7 +452,7 @@
           <a href="#" class="btn btn-primary">View Menu</a>
         </div>
         <div class="about-image">
-          <img src="https://images.unsplash.com/photo-1567521464027-f127ff144326?auto=format&fit=crop&w=800&q=80" alt="GTU central cafeteria with colourful food spread and busy dining area" loading="lazy" />
+          <img src="images/cafeteria.jpg" alt="GTU central cafeteria with colourful food spread and busy dining area" loading="lazy" />
         </div>
       </div>
     </div>
@@ -454,7 +463,7 @@
     <div class="container">
       <div class="about-grid">
         <div class="about-image">
-          <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=800&q=80" alt="GTU main library interior with towering bookshelves and study zones" loading="lazy" />
+          <img src="images/library.jpg" alt="GTU main library interior with towering bookshelves and study zones" loading="lazy" />
         </div>
         <div class="about-text">
           <span class="section-badge">Knowledge Hub</span>
@@ -488,7 +497,7 @@
       <div class="research-grid">
         <article class="research-card">
           <div class="research-image">
-            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="Student working at GTU Fabrication Lab with 3D printers and laser cutters" loading="lazy" />
+            <img src="images/lab-fabrication.jpg" alt="Student working at GTU Fabrication Lab with 3D printers and laser cutters" loading="lazy" />
           </div>
           <div class="research-content">
             <span class="research-tag">Fabrication</span>
@@ -499,7 +508,7 @@
 
         <article class="research-card">
           <div class="research-image">
-            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=600&q=80" alt="AI and machine learning lab with high-performance computing clusters" loading="lazy" />
+            <img src="images/lab-ai.jpg" alt="AI and machine learning lab with high-performance computing clusters" loading="lazy" />
           </div>
           <div class="research-content">
             <span class="research-tag">AI &amp; ML</span>
@@ -510,7 +519,7 @@
 
         <article class="research-card">
           <div class="research-image">
-            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" alt="Cybersecurity and ethical hacking lab with advanced network equipment" loading="lazy" />
+            <img src="images/lab-cyber.jpg" alt="Cybersecurity and ethical hacking lab with advanced network equipment" loading="lazy" />
           </div>
           <div class="research-content">
             <span class="research-tag">Cybersecurity</span>
@@ -532,27 +541,27 @@
       </div>
       <div class="gallery-grid" role="list" aria-label="Campus photo gallery">
         <figure class="gallery-item gallery-large" role="listitem">
-          <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80" alt="GTU main administration building at golden hour" loading="lazy" />
+          <img src="images/hero-home.jpg" alt="GTU main administration building at golden hour" loading="lazy" />
           <figcaption>Main Administration Building</figcaption>
         </figure>
         <figure class="gallery-item" role="listitem">
-          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=400&q=80" alt="Students walking through GTU campus corridors" loading="lazy" />
+          <img src="images/students-campus.jpg" alt="Students walking through GTU campus corridors" loading="lazy" />
           <figcaption>Campus Life</figcaption>
         </figure>
         <figure class="gallery-item" role="listitem">
-          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=400&q=80" alt="Professor delivering a lecture to engaged students" loading="lazy" />
+          <img src="images/lecture-hall.jpg" alt="Professor delivering a lecture to engaged students" loading="lazy" />
           <figcaption>In the Classroom</figcaption>
         </figure>
         <figure class="gallery-item" role="listitem">
-          <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=400&q=80" alt="Students working together in a modern research laboratory" loading="lazy" />
+          <img src="images/research-lab.jpg" alt="Students working together in a modern research laboratory" loading="lazy" />
           <figcaption>Research Lab</figcaption>
         </figure>
         <figure class="gallery-item" role="listitem">
-          <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=400&q=80" alt="Indoor sports arena during inter-college basketball competition" loading="lazy" />
+          <img src="images/sports-arena.jpg" alt="Indoor sports arena during inter-college basketball competition" loading="lazy" />
           <figcaption>Sports Arena</figcaption>
         </figure>
         <figure class="gallery-item gallery-large" role="listitem">
-          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80" alt="Annual cultural festival Tarang with colourful stage performance" loading="lazy" />
+          <img src="images/event-tarang.jpg" alt="Annual cultural festival Tarang with colourful stage performance" loading="lazy" />
           <figcaption>Annual Cultural Festival — Tarang</figcaption>
         </figure>
       </div>
@@ -613,7 +622,7 @@
       <div class="testimonials-grid">
         <article class="testimonial-card">
           <div class="testimonial-header">
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Portrait of Arjun Mehta, GTU alumni and tech entrepreneur" loading="lazy" />
+            <img src="images/alumni-arjun.jpg" alt="Portrait of Arjun Mehta, GTU alumni and tech entrepreneur" loading="lazy" />
             <div>
               <strong>Arjun Mehta</strong>
               <span>Co-Founder &amp; CEO, NovaTech AI</span>
@@ -629,7 +638,7 @@
 
         <article class="testimonial-card">
           <div class="testimonial-header">
-            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Portrait of Priya Nair, GTU alumni and NASA researcher" loading="lazy" />
+            <img src="images/alumni-priya.jpg" alt="Portrait of Priya Nair, GTU alumni and NASA researcher" loading="lazy" />
             <div>
               <strong>Dr. Priya Nair</strong>
               <span>Research Scientist, NASA Jet Propulsion Lab</span>
@@ -645,7 +654,7 @@
 
         <article class="testimonial-card">
           <div class="testimonial-header">
-            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Portrait of Sneha Kapoor, GTU alumni and social entrepreneur" loading="lazy" />
+            <img src="images/alumni-sneha.jpg" alt="Portrait of Sneha Kapoor, GTU alumni and social entrepreneur" loading="lazy" />
             <div>
               <strong>Sneha Kapoor</strong>
               <span>Founder, EduReach Foundation</span>
