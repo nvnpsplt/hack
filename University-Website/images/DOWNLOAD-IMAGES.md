@@ -33,7 +33,7 @@ Links are Unsplash CDN URLs at 1600px wide — adjust `w=` if you want larger/sm
 | `event-olympia.jpg` | Olympia sports meet | https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1600&q=80 |
 | `hostel-room.jpg` | Hostel room | https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1600&q=80 |
 | `cafeteria.jpg` | Central cafeteria | https://images.unsplash.com/photo-1567521464027-f127ff144326?auto=format&fit=crop&w=1600&q=80 |
-| `news-award.jpg` | News — national award | https://images.unsplash.com/photo-1559223607-180220f86c29?auto=format&fit=crop&w=1600&q=80 |
+| `news-award.jpg` | News — national award / trophy | https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=1600&q=80 |
 | `news-convocation.jpg` | News — Convocation 2025 | https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1600&q=80 |
 
 > **Note on `students-campus.jpg`:** the original photo (`photo-1523050854058-8df90110c9f1`) returns 404 on Unsplash, so the link above points to a replacement. If it also fails, pick any from https://unsplash.com/s/photos/university-students and save it as `students-campus.jpg`.
